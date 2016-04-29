@@ -1,4 +1,9 @@
-# Overview of RancherOS
+---
+title: Overview of RancherOS
+layout: os-default
+---
+
+## Overview of RancherOS
 ---
 RancherOS is the smallest, easiest way to run Docker in production.  Everything in RancherOS is a container managed by Docker. This includes system services such as `udev` and `rsyslog`.  RancherOS is dramatically smaller than most traditional operating systems, because it only includes the services necessary to run Docker. This keeps the binary download of RancherOS to less than 30 MB. The size may fluctuate as we adapt to Docker. By removing unnecessary libraries and services, requirements for security patches and other maintenance are dramatically reduced. This is possible because with Docker, users typically package all necessary libraries into their containers. 
 
@@ -38,7 +43,3 @@ Please check our repository for the latest release in our [README](https://githu
 
 <br>
 <br>
-
-
-
-
